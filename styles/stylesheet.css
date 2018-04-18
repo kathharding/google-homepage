@@ -17,12 +17,6 @@ li {
 	float: right;
 }
 
-.navbottom {
-	background-color: gray;
-	padding: 14px 16px;
-	width: 100%;
-}
-
 li a:hover {
 	text-decoration: underline;
 	color: gray;
@@ -30,9 +24,36 @@ li a:hover {
 
 a:link {
 	text-decoration: none;
-  	color: black;
+  color: black;
 }
 
+/*
+.navbottom {
+	background-color: gray;
+	padding: 14px 16px;
+	width: 100%;
+}
+*/
+
 .logo {
-	height: 300px;
+    width: 275px;
+    margin: auto;
+    height: 500px;
+    background-color: gray;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
 }
